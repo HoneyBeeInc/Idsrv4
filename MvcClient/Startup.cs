@@ -42,6 +42,11 @@ namespace MvcClient
                 options.ClientId = "mvc";
                 options.ClientSecret = "secret";
                 options.ResponseType = "code";
+                options.GetClaimsFromUserInfoEndpoint = true;
+
+                options.Scope.Add("api1");
+                options.Scope.Add("userdetails");
+
 
                 options.SaveTokens = true;
             });

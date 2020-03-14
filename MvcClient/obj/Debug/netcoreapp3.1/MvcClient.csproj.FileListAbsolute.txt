@@ -41,3 +41,46 @@ C:\Users\ah bueno\Documents\GitHub\Idsrv4\MvcClient\obj\Debug\netcoreapp3.1\MvcC
 C:\Users\ah bueno\Documents\GitHub\Idsrv4\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.csproj.CopyComplete
 C:\Users\ah bueno\Documents\GitHub\Idsrv4\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.dll
 C:\Users\ah bueno\Documents\GitHub\Idsrv4\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.pdb
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\appsettings.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.exe
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.deps.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.runtimeconfig.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.runtimeconfig.dev.json
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.pdb
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.Views.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\MvcClient.Views.pdb
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\git\EmilioIdsrv\MvcClient\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.csprojAssemblyReference.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\staticwebassets\MvcClient.StaticWebAssets.Manifest.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\staticwebassets\MvcClient.StaticWebAssets.xml
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.MvcApplicationPartsAssemblyInfo.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.RazorAssemblyInfo.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.RazorAssemblyInfo.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.AssemblyInfoInputs.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.AssemblyInfo.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.TagHelpers.input.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.TagHelpers.output.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.RazorCoreGenerate.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.RazorTargetAssemblyInfo.cache
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.RazorTargetAssemblyInfo.cs
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.Views.pdb
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.csproj.CopyComplete
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.dll
+E:\git\EmilioIdsrv\MvcClient\obj\Debug\netcoreapp3.1\MvcClient.pdb

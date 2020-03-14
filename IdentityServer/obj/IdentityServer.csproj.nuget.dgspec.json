@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ah bueno\\Documents\\GitHub\\Idsrv4\\IdentityServer\\IdentityServer.csproj": {}
+    "E:\\git\\EmilioIdsrv\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ah bueno\\Documents\\GitHub\\Idsrv4\\IdentityServer\\IdentityServer.csproj": {
+    "E:\\git\\EmilioIdsrv\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ah bueno\\Documents\\GitHub\\Idsrv4\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "E:\\git\\EmilioIdsrv\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "C:\\Users\\ah bueno\\Documents\\GitHub\\Idsrv4\\IdentityServer\\IdentityServer.csproj",
-        "packagesPath": "C:\\Users\\ah bueno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ah bueno\\Documents\\GitHub\\Idsrv4\\IdentityServer\\obj\\",
+        "projectPath": "E:\\git\\EmilioIdsrv\\IdentityServer\\IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\colum\\.nuget\\packages\\",
+        "outputPath": "E:\\git\\EmilioIdsrv\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ah bueno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\colum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\ah bueno\\Desktop\\local-nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

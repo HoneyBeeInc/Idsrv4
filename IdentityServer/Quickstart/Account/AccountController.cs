@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using IdentityServer.Services;
 
 namespace IdentityServer
 {
@@ -33,12 +34,14 @@ namespace IdentityServer
         private readonly IClientStore _clientStore;
         private readonly IAuthenticationSchemeProvider _schemeProvider;
         private readonly IEventService _events;
+        private readonly IExtendedProfileService _extendedProfileService;
 
         public AccountController(
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events,
+            IExtendedProfileService extendedProfileService,
             TestUserStore users = null)
         {
             // if the TestUserStore is not in DI, then we'll just use the global users collection
@@ -49,6 +52,7 @@ namespace IdentityServer
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
             _events = events;
+            _extendedProfileService = extendedProfileService;
         }
 
         /// <summary>
@@ -126,8 +130,10 @@ namespace IdentityServer
                         };
                     };
 
+                    var claims = await _extendedProfileService.GetClaimsAsync(user.SubjectId);
+
                     // issue authentication cookie with subject ID and username
-                    await HttpContext.SignInAsync(user.SubjectId, user.Username, props);
+                    await HttpContext.SignInAsync(user.SubjectId, user.Username, props, claims.ToArray());
 
                     if (context != null)
                     {

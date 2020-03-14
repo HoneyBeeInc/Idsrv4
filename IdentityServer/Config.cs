@@ -5,6 +5,7 @@
 using IdentityServer4;
 using IdentityServer4.Models;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace IdentityServer
 {
@@ -14,13 +15,17 @@ namespace IdentityServer
             new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile()
+                new IdentityResources.Profile(),
+                new IdentityResource("userdetails", new[] {"address", "email", "email_verified"})
             };
 
         public static IEnumerable<ApiResource> Apis =>
             new ApiResource[]
             {
                 new ApiResource("api1", "My Api")
+                {
+                    //UserClaims = {"Address", "Email", "EmailVerified"}
+                }
             };
 
         public static IEnumerable<Client> Clients =>
@@ -55,10 +60,14 @@ namespace IdentityServer
                     RedirectUris = { "http://localhost:5002/signin-oidc" },
                     // where to redirect to after logout
                     PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+                    AlwaysSendClientClaims = true,
+                    AlwaysIncludeUserClaimsInIdToken = true,
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "api1",
+                        "userdetails"
                     }
                 }
             };

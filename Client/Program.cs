@@ -10,7 +10,7 @@ namespace Client
     {
         static async Task Main()
         {
-            await Task.Delay(10000);
+            await Task.Delay(0);
             // discover endpoints from metadata
             var client = new HttpClient();
             var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");

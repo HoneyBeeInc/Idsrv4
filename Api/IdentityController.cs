@@ -5,13 +5,22 @@ using System.Linq;
 namespace Api
 {
     [Route("identity")]
-    [Authorize]
     public class IdentityController : ControllerBase
     {
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
-            return new JsonResult(from c in User.Claims select new { c.Type, c.Value });
+            var claims = User.Claims.Select(c => new {c.Type, c.Value}).ToList();
+            return new JsonResult(claims);
+        }
+
+        [HttpGet]
+        [Authorize(policy:"bob")]
+        [Route("Hidden")]
+        public IActionResult Hidden()
+        {
+            return new JsonResult(new {message = "Hi Bob"});
         }
     }
 }
